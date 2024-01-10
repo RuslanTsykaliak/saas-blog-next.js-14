@@ -11,7 +11,7 @@ export default function Footer() {
 			<div className="max-w-7xl py-10 px-5 md:p-0 space-y-5  mx-auto flex justify-between md:items-end flex-col md:flex-row">
 				<div className="space-y-10">
 					<div className="space-y-2 w-full sm:w-96">
-						<h1 className="text-3xl font-bold">Daily Media</h1>
+						<h1 className="text-3xl font-bold">Next.js Media</h1>
 						<p className="">
 							Explore a world of coding insights and knowledge on
 							our blog website, where every article is a step
@@ -27,7 +27,7 @@ export default function Footer() {
 				</div>
 
 				<h1 className="text-sm">
-					&copy; 2023 Chensokheng.All right reserved
+					&copy; {new Date().getFullYear()}  Built with <a href="https://nextjs.org/" className="underline">Next.js</a> and ❤️
 				</h1>
 			</div>
 		</footer>
